@@ -9,17 +9,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.IntroSliderAndroid">
-        <activity android:name=".PokeDescription"
-            android:parentActivityName=".PokeList"
-            android:label="Details"/>
-        <activity android:name=".PokeList" />
-        <activity android:name=".WelcomeActivity">
+        <activity android:name=".SplashScreen"
+            android:theme="@android:style/Theme.NoTitleBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".PokeDescription"
+            android:label="Details"
+            android:parentActivityName=".PokeList" />
+        <activity android:name=".PokeList" />
+        <activity android:name=".WelcomeActivity">
+            <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+        </intent-filter>
         </activity>
         <activity android:name=".MainActivity" />
     </application>
