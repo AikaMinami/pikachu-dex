@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.IntroSliderAndroid">
-        <activity android:name=".PokeList"></activity>
+        <activity android:name=".PokeDescription"
+            android:parentActivityName=".PokeList"
+            android:label="Details"/>
+        <activity android:name=".PokeList" />
         <activity android:name=".WelcomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

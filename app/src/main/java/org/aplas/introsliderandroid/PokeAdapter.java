@@ -1,7 +1,9 @@
 package org.aplas.introsliderandroid;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.annotation.NonNull;
+import android.support.constraint.ConstraintLayout;
 import android.support.v7.widget.RecyclerView;
 import android.text.Layout;
 import android.view.LayoutInflater;
@@ -39,6 +41,17 @@ public class PokeAdapter extends RecyclerView.Adapter<PokeAdapter.MyViewHolder> 
         myViewHolder.myText1.setText(data1[i]);
         myViewHolder.myText2.setText(data2[i]);
         myViewHolder.myImage.setImageResource(images[i]);
+
+        myViewHolder.mainLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context, PokeDescription.class);
+                intent.putExtra("data1", data1[i]);
+                intent.putExtra("data2", data2[i]);
+                intent.putExtra("myImage", images[i]);
+                context.startActivity(intent);
+            }
+        });
     }
 
     @Override
@@ -50,11 +63,13 @@ public class PokeAdapter extends RecyclerView.Adapter<PokeAdapter.MyViewHolder> 
 
         TextView myText1, myText2;
         ImageView myImage;
+        ConstraintLayout mainLayout;
         public MyViewHolder(@NonNull @NotNull View itemView) {
             super(itemView);
             myText1 = itemView.findViewById(R.id.pokemon_name_txt);
             myText2 = itemView.findViewById(R.id.pokemon_desc_txt);
             myImage = itemView.findViewById(R.id.myImage);
+            mainLayout = itemView.findViewById(R.id.mainLayout);
         }
     }
 }

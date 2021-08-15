@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(view.getContext(), "Password tidak boleh kosong!", Toast.LENGTH_LONG).show();
         }
         else {
-            Intent i = new Intent(MainActivity.this, WelcomeActivity.class);
+            Intent i = new Intent(MainActivity.this, PokeList.class);
             startActivity(i);
             finish();
         }
