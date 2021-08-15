@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Pokemon List</string>
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">START</string>
+
+    <string name="slide_1_title">KNOW YOU POKEMON</string>
+    <string name="slide_1_desc">Description</string>
+
+    <string name="slide_2_title">PICK YOUR FAVORITE POKEMON</string>
+    <string name="slide_2_desc">Description</string>
+
+    <string name="slide_3_title">POKEBALL</string>
+    <string name="slide_3_desc">Description</string>
+
+    <string name="slide_4_title">POKEBALL 2</string>
+    <string name="slide_4_desc">Description</string>
+    <string name="title_activity_poke_list">PokeList</string>
+
+    <string-array name="pokemon">
+        <item>Bulbasaur</item>
+        <item>Charmander</item>
+        <item>Dratini</item>
+        <item>Eevee</item>
+        <item>Jigglypuff</item>
+        <item>Meowth</item>
+        <item>Pikachu</item>
+        <item>Psyduck</item>
+        <item>Snorlax</item>
+        <item>Squirtle</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>Bulbasaur (フシギダネ Fushigidane ) is a Grass/Poison -type Pokémon introduced in Generation I. It evolves into Ivysaur starting at level 16</item>
+        <item>Charmander, like its evolved forms, has a flame that constantly burns on the end of its tail. However, If the flame on Charmander's tail goes out, Charmander's life will come to an end.</item>
+        <item>It has a white belly, and is light blue the rest of the way. Dratini looks like some sort of snake or sea monster. Dratini are born large.</item>
+        <item>It is the Version Mascot and Starter Pokémon for the game Pokémon: Let's Go, Eevee!. It also has a Gigantamax form. Eevee is a small, fox-like creature with bushy, brown fur.</item>
+        <item>Jigglypuff (プリン Purin ) is a Normal/Fairy -type Pokémon introduced in Generation I. Before Generation VI, it was a pure Normal type. It is Clefairy's counterpart. Jigglypuff is small round pink Pokémon</item>
+        <item>A Dark -type introduced in Generation VII, and a Steel -type introduced in Generation VIII. Kantonian Meowth also has a Gigantamax form known as Gigantamax Meowth. Meowth is a small, bipedal, feline Pokémon.</item>
+        <item>Pikachu (ピカチュウ Pikachuu ) is an Electric -type Pokémon which was introduced in Generation I. Pikachu is renowned for being the most well-known and recognizable Pokémon. </item>
+        <item>Psyduck (コダック Kodakku ) is a Water -type Pokémon introduced in Generation I. Psyduck is a medium-sized, yellow platypus-like or duck-like Pokémon. Only the feet and bill are tan.</item>
+        <item>Snorlax (カビゴン Kabigon ) is a Normal -type Pokémon introduced in Generation I. Snorlax is a very large and fat, mammalian Pokémon that has grayish-blue fur and an apricot-color underbelly</item>
+        <item>Like turtles, Squirtle has a shell that covers its body with holes that allow its limbs, tail, and head to be exposed. Unlike a turtle, Squirtle is ordinarily bipedal.</item>
+    </string-array>
+
+</resources>
